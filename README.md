@@ -4,5 +4,7 @@ ProjetoEvent_React
 🚀 Tecnologias
 
 -React
+
 -JavaScript
+
 -CSS
