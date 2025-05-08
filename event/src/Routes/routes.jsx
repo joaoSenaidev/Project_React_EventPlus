@@ -16,7 +16,6 @@ const Rotas = () => {
             <Route path="/CadastrarTipoUsuario" element={<CadastroTipoUsuario/>}/>
             <Route path="/ListarEventos" element={<ListagemDeEvento/>}/>
 
-
         </Routes>
         </BrowserRouter>
     )

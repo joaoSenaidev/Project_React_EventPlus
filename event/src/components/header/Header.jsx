@@ -13,18 +13,19 @@ const Header = (props) => {
             </Link>
 
             <nav className="nav_header">
-                <a href="" className="link_header">Home</a>
+                {/* <a href="" className="link_header">Home</a>
                 <a href="" className="link_header">Evento</a>
                 <a href="" className="link_header">Usuario</a>
-                <a href="" className="link_header">Contatos</a>
+                <a href="" className="link_header">Contatos</a> */}
 
-
-                {/* <Link className="link_header" to="/Home">Home</Link>
+                <Link className="link_header" to="/Home">Home</Link>
                 <Link className="link_header" to="/Evento">Eventos</Link>
                 <Link className="link_header" to="/Usuario">Usuarios</Link>
-                <Link className="link_header" to="/Contatos">Contatos</Link> */}
+                <Link className="link_header" to="/Contatos">Contatos</Link>
             </nav>
-                    <a href="#" className="adm">{props.tituloHeader}<img src= {Vector} alt="portinha" /> </a>
+                    <div className="adm">
+                    <a href="#">{props.tituloHeader}<img src= {Vector} alt="portinha"/></a>
+                    </div>
         </div>
     </header>
    
