@@ -10,7 +10,7 @@
     
 }
 
-.itens_lista img {
+.itens img {
     height: 20px;
 }
 
@@ -24,13 +24,13 @@
 }
 
 
-.tabelas .table_cabecalhos :first-child {
+.tabelas .cabecalhos :first-child {
     width: 300px;
     
     
 }
 
-.tabelas .table_cabecalhos :nth-child(2) {
+.tabelas .cabecalhos :nth-child(2) {
     width: 760px;
     text-align: start;
     
@@ -38,12 +38,12 @@
 }
 
 
-.tabelas .itens_lista :nth-child(2){
+.tabelas .itens :nth-child(2){
     text-align: start;
     
 }
 
-.tabelas .table_cabecalhos th {
+.tabelas .cabecalhos th {
     border-bottom: 1px solid #B51D44;
     width: 100px;
     /* margin-top: 40px; */
@@ -51,12 +51,12 @@
     
 }
 
-.itens_lista td {
+.itens td {
     padding: 28px 0 0 1px;
     border-bottom: 1px solid black;
 }
 
-.select_eventos {
+.select {
     border: none;
     border-left: none;
     border-right: none;

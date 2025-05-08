@@ -16,14 +16,14 @@ const ListagemDeEvento = () => {
                 <hr />
 
             <div className="tabelas">
-                <select name="Tipo De Evento" id="" className="select_eventos">
+                <select name="Tipo De Evento" id="" className="select">
                     <option value="">Todos Os Eventos</option>
                     <option value="">op1</option>
                     <option value="">op2</option>
                     <option value="">op3</option>
                 </select>
                 <thead>
-                    <tr className="table_cabecalhos">
+                    <tr className="cabecalhos">
                         <th>Titulo</th>
                         <th>Tipo Evento</th>
                         <th>Comentarios</th>
@@ -31,13 +31,13 @@ const ListagemDeEvento = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr className="itens_lista">
+                    <tr className="itens">
                         <td>Nome Evento</td>
                         <td data-cell="Nome">Tipo Evento</td>
                         <td data-cell="Comentar"><img src={Comentario} alt="" /></td>
                         <td data-cell="Participar"><Toggle/></td>
                     </tr>
-                    <tr className="itens_lista">
+                    <tr className="itens">
                         <td>Nome Evento</td>
                         <td data-cell="Nome">Tipo Evento</td>
                         <td data-cell="Comentar"><img src={Comentario} alt="" /></td>
